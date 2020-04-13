@@ -1,6 +1,6 @@
 # Modifies Bitnami's Wordpress image to enable missing Apache modules and remove bundled plugins
 
-FROM bitnami/wordpress@sha256:d4b888ad309f645c626e74b61ee4db65463c067ba795eef7128bcce5d38ae14b
+FROM bitnami/wordpress@sha256:a78e1368705af0fd6c9c93b38ddc38761c4909ae14425d0f6b86239985f72581
 
 USER root
 RUN set -eu; \
